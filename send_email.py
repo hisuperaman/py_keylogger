@@ -43,5 +43,5 @@ def send():
     print(lines)
     print()
     print(current_date_str)
-    if current_datetime.hour>=20 and current_date_str not in lines:
+    if current_datetime.hour>=12 and current_date_str not in lines:
         send_email_daily()
