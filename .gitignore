@@ -1,4 +1,7 @@
-/build
-/dist
+/extras
 /venv
-consolewindow.spec
+.gitignore
+/__pycache__
+datelog.txt
+log.txt
+.env
